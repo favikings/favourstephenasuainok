@@ -162,6 +162,10 @@ body{
     margin: auto;
 }
 
+.header h1, h2{
+    text-align: center;
+}
+
 
 
 /* Social MEdia StickY */
@@ -187,22 +191,27 @@ body{
 
 .fa-instagram:hover{
     color:#c32aa3;
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
 .fa-github:hover{
     color: #cf8f03;
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
 .fa-facebook:hover{
     color:#3b5998;
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
 .fa-linkedin:hover{
     color: #007bb5;
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
 .fa-whatsapp:hover{
     color:#25d366;
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
 
@@ -215,6 +224,10 @@ body{
     bottom: -130px;
     left: -90px;
     
+}
+
+.txt-type > .txt{
+    border-right:0.2rem solid #777777;
 }
 
 
@@ -342,10 +355,11 @@ body{
         transform:translate(-50%, -10%);
     }
 
-    .header h2{
-        font-size:20px;
+    .header h1{
+        font-size:25px;
         text-align: center;
     }
+
     .nav-items{
         margin: 0 1.5em;
         
@@ -357,13 +371,13 @@ body{
     }
     .follow-me ul li {
         list-style-type: none;
-        margin: 1em 0.5em;
+        margin: 1em 0.3em;
         display: inline-block;
     }
 
     .follow-me ul a{
         
-        font-size: 18px;
+        font-size: px;
         
     }
 
