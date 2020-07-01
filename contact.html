@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo=" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Favour Asuainok | Frontend Developer...</title>
+</head>
+<body>
+    <nav class="navBar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar-1" class="bar"></div>
+            <div id="bar-2" class="bar"></div>
+            <div id="bar-3" class="bar"></div>
+        </div>
+        <ul class="nav-items" id="navItem">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <div class="menu-bg" id="menu-bg"></div>
+    <!-- <div class="name-overlay">FA</div> -->
+    <div class="container">
+        <div class="header">
+           <div class="contact-wrapper">
+            <div class="contact-header">
+                <h1>Get in touch</h1>
+                <p>If you wanna get in touch, talk to me about a project collaboration or just say hi,
+                fill up the awesome form below or send an email to 
+                <a href="mailto:faviasuainok@gmail.com">favisuainok@gmail.com</a> and ~let's talk.</p>
+            </div>
+            <div class="contact-form">
+                <form action="/" method="POST" id="form">
+                    <ul class="input-block">
+                        <li class="active name">
+							<div class="label">
+                            <label title="Name" data-text="Fill with your name" data-value=""><i class="fas fa-user"></i></label>
+							</div>
+							<input autocomplete="off" type="text" name="name" placeholder="Fill with your name">
+                        </li>
+                        <li class="email">
+							<div class="label">
+                            <label title="Name" data-text="Fill with your email" data-value=""><i class="fas fa-email-alt"></i></label>
+							</div>
+							<input autocomplete="off" type="text" name="name" placeholder="Fill with your email">
+						</li>
+                        <li class="message">
+							<div class="label">
+                            <label title="Name" data-text="Fill with your name" data-value=""><i class="fas fa-user"></i></label>
+							</div>
+							<textarea name="message"></textarea>
+						</li>
+                    </ul>
+
+                    <div class="form-btns">
+                        <input type="button" value="NEXT" id="next">
+                        <input type="submit" value="SUBMIT" id="submit">
+                    </div>
+                </form>
+            </div>
+
+            <div class="follow-links">
+                <h2>Lets get social</h2>
+                <p>Follow me online on Facebook and my Profile on Twitter, Github and Whatsapp</p>
+
+                <div class="follow-links-btns">
+                        <a class="btn" target="_blank" href="https://facebook.com/favourstephenasuainok" title="Follow on Facebook">FACEBOOK</a>
+                        <a class="github" target="_blank" href="https://github.com/favikings" title="Follow on GitHub">GITHUB</a>
+                        <a class="linkedin" target="_blank" href="https://linkedin.com/in/Favour-Asuainok" title="Connect on Linkedin">LINKDIN</a>
+                        <a class="twitter" target="_blank" href="https://twitter.com/FAsuainok" title="Follow on Twitter">TWITTER</a>
+                        <a class="instagram" target="_blank" href="https://instagram.com/iam_favikings" title="Follow on Instagram">INSTAGRAM</a>
+                        <a class="whatsapp" target="_blank" href="https://wa.me/2348147363006" title="Contact me on Whatsapp">WHATSAPP</a>
+                </div>
+            </div>
+           </div>
+        </div>
+        <!-- Social Media Header -->
+        <div class="follow-me">
+            <ul>
+                
+                <li><a class="facebook" target="_blank" href="https://facebook.com/favourstephenasuainok" title="Follow on Facebook"><i class="fab fa-facebook"></i></i></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/favikings" title="Follow on GitHub"><i class="fab fa-github"></i></a></li>
+                <li><a class="linkedin" target="_blank" href="https://linkedin.com/in/Favour-Asuainok" title="Connect on Linkedin"><i class="fab fa-linkedin"></i></li>
+                <li><a class="twitter" target="_blank" href="https://twitter.com/FAsuainok" title="Follow on Twitter"><i class="fab fa-twitter"></i></li>
+                <li><a class="instagram" target="_blank" href="https://instagram.com/iam_favikings" title="Follow on Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="whatsapp" target="_blank" href="https://wa.me/2348147363006" title="Contact me on Whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+   <script src="script.js"></script> 
+</body>
+</html>
