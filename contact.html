@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo=" crossorigin="anonymous"></script>
+    <!--Kursor CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
     <link rel="icon" href="img/favicon.png" />
     <link rel="stylesheet" href="style.css">
     <title>Favour Asuainok | Frontend Developer...</title>
@@ -45,21 +48,21 @@
                         </li>
                         <li class="email">
 							<div class="label">
-                            <label title="Name" data-text="Fill with your email" data-value=""><i class="fas fa-email-alt icon"></i></label>
+                            <label title="Name" data-text="Fill with your email" data-value=""><i class="fas fa-envelope icon"></i></label>
 							</div>
 							<input autocomplete="off" type="text" name="name" placeholder="Fill with your email">
 						</li>
                         <li class="message">
 							<div class="label">
-                            <label title="Name" data-text="Fill with your name" data-value=""><i class="fas fa-ueditser icon"></i></label>
+                            <label title="Name" data-text="Fill with your name" data-value=""><i class="fas fa-edit icon"></i></label>
 							</div>
 							<textarea name="message"></textarea>
 						</li>
                     </ul>
 
                     <div class="form-btns">
-                        <input type="button" value="NEXT" id="next">
-                        <input type="submit" value="SUBMIT" id="submit">
+                        <input type="button" class="btn"  value="NEXT" id="next">
+                        <input type="submit" class="btn" value="SUBMIT YOUR MESSAGE" id="submit">
                     </div>
                 </form>
             </div>
@@ -69,12 +72,12 @@
                 <p>Follow me online on Facebook and my Profile on Twitter, Github and Whatsapp</p>
 
                 <div class="follow-links-btns">
-                        <a class="btn" target="_blank" href="https://facebook.com/favourstephenasuainok" title="Follow on Facebook">FACEBOOK</a>
-                        <a class="github" target="_blank" href="https://github.com/favikings" title="Follow on GitHub">GITHUB</a>
-                        <a class="linkedin" target="_blank" href="https://linkedin.com/in/Favour-Asuainok" title="Connect on Linkedin">LINKDIN</a>
-                        <a class="twitter" target="_blank" href="https://twitter.com/FAsuainok" title="Follow on Twitter">TWITTER</a>
-                        <a class="instagram" target="_blank" href="https://instagram.com/iam_favikings" title="Follow on Instagram">INSTAGRAM</a>
-                        <a class="whatsapp" target="_blank" href="https://wa.me/2348147363006" title="Contact me on Whatsapp">WHATSAPP</a>
+                        <a class="facebook-btn btn" target="_blank" href="https://facebook.com/favourstephenasuainok" title="Follow on Facebook">FACEBOOK</a>
+                        <a class="github-btn btn" target="_blank" href="https://github.com/favikings" title="Follow on GitHub">GITHUB</a>
+                        <a class="linkedin-btn btn" target="_blank" href="https://linkedin.com/in/Favour-Asuainok" title="Connect on Linkedin">LINKDIN</a>
+                        <a class="twitter-btn btn" target="_blank" href="https://twitter.com/FAsuainok" title="Follow on Twitter">TWITTER</a>
+                        <a class="instagram-btn btn" target="_blank" href="https://instagram.com/iam_favikings" title="Follow on Instagram">INSTAGRAM</a>
+                        <a class="whatsapp-btn btn" target="_blank" href="https://wa.me/2348147363006" title="Contact me on Whatsapp">WHATSAPP</a>
                 </div>
             </div>
            </div>
@@ -93,6 +96,8 @@
         </div>
     </div>
 
-   <script src="script.js"></script> 
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script> 
+   <script src="kursor.js"></script>
 </body>
 </html>

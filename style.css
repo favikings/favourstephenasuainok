@@ -359,20 +359,34 @@ button{
     font-family: 'Montserrat';
     overflow: hidden;
     overflow-y: hidden;
-    padding:10px 33px 10px 10px;
+    padding:10px 33px 10px 20px;
     
 }
 
 .label .icon{
     position:relative;
-    bottom:0;
+    bottom:-30px;
     right:0;
+    
+}
+
+.follow-links-btn{
+    display: flex;
+}
+
+.btn{
+    padding:0.5rem 1rem;
+    color:var(--heading);
+    background: var(--primary);
+    display: inline-block;
+    border: none;
+    font-weight:700;
+    font-family: 'Montserrat';
+    /* cursor: pointer; */
 }
 
 
-.follow-btns i:hover{
-    transition:none;
-}
+
 
 
 
