@@ -386,6 +386,7 @@ button{
     box-shadow:0px 3px 3px 2px#1d1d1d;
     margin:0.7rem 0;
     outline:none;
+    /* border-bottom:px solid #696969 */
 }
 
 .btn:hover{
@@ -397,13 +398,10 @@ button{
     color:#fff;
 }
 
-.instagram-btn{
-    background:#c32aa3;
-    color:#fff;
-}
+
 
 .github-btn{
-    background: #cf8f03;
+    background: var(--primary);
     color:#fff;
 }
 
@@ -417,10 +415,7 @@ button{
     color:#fff;
 }
 
-.whatsapp-btn{
-    background:#25d366;
-    color:#fff; 
-}
+
 
 .hide{
     display: none;
