@@ -37,26 +37,27 @@
                 <a href="mailto:faviasuainok@gmail.com">favisuainok@gmail.com</a> and ~let's talk.</p>
             </div>
             <div class="contact-form">
-                <form action="/" method="POST" id="form">
-                    <ul class="input-block">
+                <span class="username-box"></span>
+                <form action="#" method="POST" id="form">
+                    <ul class="input-block" id="ul">
                         <li class="active name">
 							<div class="label">
                             <label title="Name" data-text="Fill with your name" data-value=""><i class="fas fa-user icon
                                 "></i></label>
 							</div>
-							<input autocomplete="off" type="text" name="name" placeholder="Fill with your name">
+							<input autocomplete="off" type="text" id="name" placeholder="Enter name">
                         </li>
-                        <li class="email">
+                        <li class="email hide">
 							<div class="label">
                             <label title="Name" data-text="Fill with your email" data-value=""><i class="fas fa-envelope icon"></i></label>
 							</div>
-							<input autocomplete="off" type="text" name="name" placeholder="Fill with your email">
+							<input autocomplete="off" type="text" id="email" placeholder="Enter email">
 						</li>
-                        <li class="message">
+                        <li class="message hide">
 							<div class="label">
-                            <label title="Name" data-text="Fill with your name" data-value=""><i class="fas fa-edit icon"></i></label>
+                            <label title="message" data-text="Fill with your message" data-value=""><i class="fas fa-edit icon"></i></label>
 							</div>
-							<textarea name="message"></textarea>
+							<textarea name="message" id="message" placeholder="Enter Message"></textarea>
 						</li>
                     </ul>
 
