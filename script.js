@@ -98,61 +98,6 @@ function init(){
 // Getting all the variables
 const form = document.querySelector('#form');
 const nextBtn = document.querySelector('#next')
-next.addEventListener("click", validateform);
-const usernameBox = document.querySelector('.username-box');
-const ul = document.getElementById('ul');
-const items = ul.getElementsByTagName('li');
-const name = document.querySelector('#name');
-const email = document.querySelector('#email');
-const message = document.querySelector('#message');
+const inputs = document.querySelector('.input');
 
-usernameBox.classList.add('hide');
-
-
-//get indexNumber of li elements
-const lastUlIndex = items.length - 1;
-const currentIndex = 0;
-
-for (let i = 0; i < items.length; i++) {
-    const element = items[i];
-    
-}
-
-console.log(items[currentIndex])
-
-
-// //looping through the ul to get the li
-// for (var i = 0; i < items.length; i++) {
-//     let itemList = console.log(items[i]);
-//     // for (var j = 0; j < items.length; j++) {
-//     //     console.log(items[j]);
-//     // }
-// }
-
-// console.log(itemList[0])
-
-
-
-
-
-
-
-
-
-
-
-
-function validateform(e){
-    e.preventDefault();
-
-    
-
-    //create new dive and add user name to the diplay above
-     
-    // usernameBox.classList.remove('hide');
-    // usernameBox.appendChild(document.createTextNode(name.value));
-    
-  
-    // console.log(ul);
-}
-
+console.log(inputs);
